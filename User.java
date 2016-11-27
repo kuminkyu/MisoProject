@@ -70,5 +70,5 @@ public String getPhone() {
 }
 
 class miso{
-   
+   public int 1;
 }

@@ -9,7 +9,7 @@ public class User implements Serializable {
    private static final long serialVersionUID = -6365743330089212031L;
 
 private String phone = null;
-   private boolean register = false;   // È¸¿ø°¡ÀÔÇÑ À¯Àú °´Ã¼ flag
+   private boolean register = false;   // ÃˆÂ¸Â¿Ã¸Â°Â¡Ã€Ã”Ã‡Ã‘ Ã€Â¯Ã€Ãº Â°Â´ÃƒÂ¼ flag
    private String type = null;
    
    private String id;
@@ -67,4 +67,8 @@ public String getPhone() {
       this.type = type;
    }
 
+}
+
+class miso{
+   
 }

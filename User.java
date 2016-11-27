@@ -7,6 +7,10 @@ public class User implements Serializable {
     * 
     */
    private static final long serialVersionUID = -6365743330089212031L;
+
+private String phone = null;
+   private boolean register = false;   // 회원가입한 유저 객체 flag
+   private String type = null;
    
    private String id;
    private String pwd;
@@ -38,5 +42,29 @@ public class User implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
+public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+   public boolean isRegister() {
+      return register;
+   }
+
+   public void setRegister(boolean register) {
+      this.register = register;
+   }
+
+   public String getType() {
+      return type;
+   }
+
+   public void setType(String type) {
+      this.type = type;
+   }
 
 }

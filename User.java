@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class User implements Serializable {   
    /**
-    *  aaaaaa
+    *  aaaaaa+kiho
     */
    private static final long serialVersionUID = -6365743330089212031L;
 
